@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
+
+  // Functional but with some options that could be made much cleaner and less error prone
   let form = document.querySelector('#create-task-form');
   let allToDos = [];
 
